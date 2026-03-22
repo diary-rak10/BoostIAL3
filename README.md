@@ -2,11 +2,11 @@
 
 ---
 
-# 🧠 Prédiction du Diabète avec un Réseau de Neurones (TensorFlow)
+#  Prédiction du Diabète avec un Réseau de Neurones (TensorFlow)
 
 Ce projet Python permet de prédire si un patient est susceptible d’être diabétique en se basant sur des données médicales. L'intelligence artificielle développée ici repose sur un modèle de **réseau de neurones artificiels (ANN)** entraîné à l'aide de **TensorFlow Keras**.
 
-## ⚙️ Modèle IA utilisé
+##  Modèle IA utilisé
 
 Le modèle d’IA utilisé dans ce projet est un **réseau de neurones supervisé** structuré comme suit :
 
@@ -17,11 +17,11 @@ Le modèle d’IA utilisé dans ce projet est un **réseau de neurones supervis�
 
 Ce modèle est entraîné avec l’optimiseur **Adam** et la fonction de perte **binary\_crossentropy**, pendant **100 époques** avec un **batch size** de 10.
 
-✅ **Précision du modèle sur les données de test : environ 77,92%**
+ **Précision du modèle sur les données de test : environ 77,92%**
 
 > Le modèle est sauvegardé sous le nom `model.h5` pour être réutilisé sans réentraînement.
 
-## 📁 Données attendues
+##  Données attendues
 
 Le fichier `diabetes.csv` doit contenir les colonnes suivantes :
 
@@ -43,7 +43,7 @@ Le fichier `diabetes.csv` doit contenir les colonnes suivantes :
 4. **Saisie des informations médicales** d’un patient via la console
 5. **Prédiction du risque de diabète** et affichage du pourcentage de probabilité
 
-## ▶️ Lancer le programme
+##  Lancer le programme
 
 Installez les dépendances nécessaires :
 
@@ -59,7 +59,7 @@ python votre_script.py
 
 Une interface en ligne de commande vous permettra d’entrer les données d’un patient.
 
-## 📌 Exemple d'affichage
+##  Exemple d'affichage
 
 ```
  Ce patient est probablement **NON DIABÉTIQUE** (92.14% de probabilité).
