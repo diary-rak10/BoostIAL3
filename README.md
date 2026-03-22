@@ -35,7 +35,7 @@ Le fichier `diabetes.csv` doit contenir les colonnes suivantes :
 * Age
 * Outcome
 
-## 🧪 Fonctionnement du programme
+##  Fonctionnement du programme
 
 1. **Chargement et vérification** des données (`diabetes.csv`)
 2. **Prétraitement** : séparation, normalisation des données
